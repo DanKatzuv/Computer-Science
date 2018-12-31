@@ -1,7 +1,5 @@
 def sum_from_string(string: str) -> int:
-    """
-    :return: sum of all the natural numbers which are inside the string
-    """
+    """:return: sum of all the natural numbers which are inside the string"""
     total = 0
     multiplier = 1
     for char in reversed(string):
